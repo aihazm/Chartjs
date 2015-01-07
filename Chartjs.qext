@@ -1,0 +1,9 @@
+{
+	"name": "Chartjs",
+    "description": "Chartjs Examples",
+    "icon" : "combo-chart",
+	"type": "visualization",
+	"version": 0.1,
+	"preview" : "Chartjs.png",
+	"author": "QlikTech International"
+}

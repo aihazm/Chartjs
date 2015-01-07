@@ -1,0 +1,8 @@
+<div qv-extension style="height: 100%; position: relative; overflow: auto;" class="ng-scope">
+	<q-chart-line dataset="activeData" responsive="true" ng-if="layout.chart == 'line'"></q-chart-line>
+	<q-chart-bar dataset="activeData" responsive="true" ng-if="layout.chart == 'bar'"></q-chart-bar>
+	<q-chart-radar dataset="activeData" responsive="true" ng-if="layout.chart == 'radar'"></q-chart-radar>
+	<q-chart-polar dataset="activeData" responsive="true" ng-if="layout.chart == 'polar'"></q-chart-polar>
+	<q-chart-pie dataset="activeData" responsive="true" ng-if="layout.chart == 'pie'"></q-chart-pie>
+	<q-chart-doughnut dataset="activeData" responsive="true" ng-if="layout.chart == 'doughnut'"></q-chart-doughnut>
+</div>
